@@ -10,7 +10,7 @@ const Books = () => {
   const [tableData, setTableData] = useState([]);
   const navigate = useNavigate();
   const getData = () => {
-    fetch("https://63899fddc53s56b25a203ee0c.mockapi.io/book", {
+    fetch("https://63899fddc5356b25a203ee0c.mockapi.io/books", {
       method: "GET",
     })
       .then((response) => response.json())
